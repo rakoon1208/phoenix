@@ -11,6 +11,7 @@ cortex-m-rt = { workspace = true }
 rtic = { workspace = true }
 rtic-monotonics = { workspace = true }
 common-arm = { path = "../crates/common-arm" }
+madgwick = { path = "../crates/madgwick" }
 stm32h7xx-hal = { workspace = true }
 postcard = { workspace = true }
 defmt = { workspace = true }
@@ -21,7 +22,7 @@ rtic-sync = { workspace = true }
 defmt-rtt = { workspace = true }
 panic-probe = { workspace = true }
 chrono = { workspace = true }
-messages = {workspace = true}
+messages = { workspace = true }
 
 [dev-dependencies]
 defmt-test = { workspace = true }
